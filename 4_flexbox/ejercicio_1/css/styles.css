@@ -1,0 +1,7 @@
+.contenedor-principal {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+   }

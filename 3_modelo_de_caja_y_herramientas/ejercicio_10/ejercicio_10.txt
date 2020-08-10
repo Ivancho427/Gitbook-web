@@ -1,0 +1,10 @@
+Entrar en Wikipedia.org y:
+
+* Averiguar el peso total de la página principal de Wikipedia
+R/= 1806 X 1074.580
+
+* Averiguar cuánto ha tardado en cargar la página.
+R/=
+
+* Averiguar cuántas imágenes usa la página principal de Wikipedia.
+R/= En el código solo veo un imagen.

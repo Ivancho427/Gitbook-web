@@ -1,0 +1,42 @@
+body {
+    border: 8px;
+    background-color: rgb(196, 224, 224);
+}
+
+.contenido {
+    margin-top: 106px;
+    background-color: rgb(200, 200, 233);
+    justify-content: center;
+}
+
+.autor {
+    font-size: 18px;
+    margin-bottom: 40px;    
+    text-align: center;
+}
+
+.titular {
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+
+}
+
+.parrafos {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.enlace {
+    padding: 0px 0px 8px 16px;
+}
+
+ /* Esto es un artículo
+
+Las dimensiones de esta composición serían las siguientes:
+El body tendrá un borde de 8px
+El contenido estará centrado dentro del body e irá dentro de un div que tendrá 106px de margen superior
+En el primer texto irá el nombre del autor con una fuente de 18px y un margen inferior de 40px
+El titular irá después con un tamaño de fuente de 32px y un margen inferior de 32px
+Cada párrafo tendrá un tamaño de fuente de 18px y un margen inferior de 27px
+El enlace tendrá un padding superior e inferior de 8px y otro izquierdo y derecho de 16px y un margen izquierdo de -16px. */

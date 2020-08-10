@@ -1,0 +1,33 @@
+Entrar en Wikipedia.org y:
+
+* Cambiar el color de los enlaces a naranja.
+R/= Se ejecuta el cambio de color sobre todos los enlaces.
+
+* Sobre los idiomas destacados que aparecen sobre la imagen de la pelota de Wikipedia, añadir uno falso.
+R/= Se añade otro idioma.
+
+* Explicar cómo están compuestos estos módulos de idioma.
+R/= Cada idioma esta dentro de una etiqueta "div" con clase central featured, luego hay una etiqueta "a" donde al darle click lo lleva a uno al idioma selecciondo
+
+
+* Explicar cómo están colocados.
+R/= En el código se observa las siguientes etiquetas, primero un div, luego a, un strong para resaltar el idioma y por último una etiqueta small donde está la información de la cantidad de articulos que hay en la página con respecto a ese idioma
+
+* Examinar la versión de tablet de Wikipedia.
+R/= No encontré la opción.
+
+* Examinar la versión de móvil de Wikipedia.
+R/=
+<a href="//meta.m.wikimedia.org/w/index.php?title=Terms_of_use/es&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a>
+
+* Averiguar las dimensiones de la caja de búsqueda y:
+
+- Cuánto tiene de separación con el botón de buscar
+R/= La altura de la caja es de 325px. Sin embargo, el margin-bottom es de 0px.
+- ¿Qué hay de raro con esa separación?
+
+R/= La separación la tiene el boton de buscar que tiene padding-top de 8px.
+
+
+
+

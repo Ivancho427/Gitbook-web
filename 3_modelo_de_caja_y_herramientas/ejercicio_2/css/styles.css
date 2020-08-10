@@ -1,0 +1,28 @@
+
+
+
+.div-1 {
+    height: 100px;
+    width: 100px;
+    display: inline;
+    background-color: brown;
+}
+
+.div-2 {
+    height: 100px;
+    width: 100px;
+    display: block;
+    background-color: chartreuse;
+}
+
+/* .div-3 {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: darkgray;
+}  */
+
+.div-3 #tercer-div {
+    display: none;
+    background-color: rgb(17, 5, 5);
+}

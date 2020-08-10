@@ -1,0 +1,19 @@
+
+
+  .contenedor-principal {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+
+  .imagen {
+      height: 100px;
+      width: 100px;
+      padding: 10px;
+      border: 5px;
+      box-sizing: border-box;      
+  }

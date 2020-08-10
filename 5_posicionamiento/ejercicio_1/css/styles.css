@@ -1,0 +1,37 @@
+.contenedor-principal {
+    height: auto;
+    width: auto;
+
+}
+
+.contenedor-principal ul {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: underline;
+}
+
+#opcion-1 {
+    margin-right: 12px;   
+}
+
+#opcion-2 {
+    margin-right: 12px;  
+}
+
+#opcion-3 {
+    margin-right: 12px;    
+}
+
+#opcion-4 {
+    margin-right: 12px;     
+}
+
+#opcion-5 {
+    margin-right: 0px; 
+}
+
+
+
+
+
+/* Crea una lista de cinco elementos que se muestre en línea y con espacios entre cada elemento de 12 píxeles. */

@@ -1,0 +1,78 @@
+/* NO TOCAR ESTOS ESTILOS */
+ul.news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+a {
+  color: red;
+}
+ul.news li.news__item {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10px;
+}
+ul.news li.news__item + li.news__item {
+  border-top: 1px solid #ccc;
+}
+ul.news li.news__item:nth-child(2n) {
+  background: #eee;
+}
+ul.news li.news__item:last-child {
+  border-bottom: 1px solid #ccc;
+}
+ul.news li.news__item h2.news__item-title {
+  margin: 0 0 .25em;
+  font-size: 20px;
+}
+ul.news li.news__item a.news__item-link {
+  color: green;
+}
+/* NO TOCAR ESTOS ESTILOS */
+
+/* Nuevos estilos a partir de esta línea */
+
+/* 1) Por qué los enlaces son verdes y no rojos 
+R/= Porque quien tiene la meror especifidad es la clase ul.news li.news__item a.news__item-link y supera en especifidad a la etiqueta a  */
+
+/* 2) Hacer que los enlaces sean rojos 
+R/= Se podría  hacer de dos maneras una sería eliminar la siguiente clase y así tomaría el valor de la etiqueta a:
+
+ul.news li.news__item a.news__item-link {
+  color: green;
+}
+o la otra opción es cambiar la clase ul.news li.news__item a.news__item-link:*/
+
+ul.news li.news__item a.news__item-link {
+  color:red;
+}
+
+/* 3) Rehacer el HTML usando <div> en lugar de <ul> y <li>. ¿Qué pasa?
+Se cambia el font-size, se pierde el background gris y me parece que cambia la margen o el padding */
+
+/* 4) Comentar el CSS que no se puede tocar y reescribirlo usando una clase por selector para que se vea igual. Para mi no se puede tocar los  siguientes elementos ya que todos son clases y tiene prioridad. Sin embargo, me queda la duda si está correcto o no:
+
+ul.news li.news__item {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10px;
+}
+ul.news li.news__item + li.news__item {
+  border-top: 1px solid #ccc;
+}
+ul.news li.news__item:nth-child(2n) {
+  background: #eee;
+}
+ul.news li.news__item:last-child {
+  border-bottom: 1px solid #ccc;
+}
+ul.news li.news__item h2.news__item-title {
+  margin: 0 0 .25em;
+  font-size: 20px;
+} */
+
+/* 5) BONUS: Cambiar ahora entre <div> y <ul>/<li>
+R/= Se realiza el cambio  */
+
+

@@ -1,0 +1,2 @@
+
+Esta parte del Gitbook se tiene ya muy clara, debido a que constantemente estamos subiendo los proyectos en los repositorios respectivos de GitHub y por ende se han practicado todos los comandos indicados en este apartado.
